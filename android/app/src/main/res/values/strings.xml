@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">WebVisitsMeeting</string>
+    <string name="title_activity_main">WebVisitsMeeting</string>
+    <string name="package_name">com.crcdemexico.WebVisitsMeeting</string>
+    <string name="custom_url_scheme">com.crcdemexico.WebVisitsMeeting</string>
+</resources>
