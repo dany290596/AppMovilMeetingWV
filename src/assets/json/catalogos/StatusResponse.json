@@ -1,0 +1,22 @@
+[
+    {
+        "SStatusId": 1,
+        "SNombre": "Programada"
+    },
+    {
+        "SStatusId": 2,
+        "SNombre": "Por Autorizar"
+    },
+    {
+        "SStatusId": 3,
+        "SNombre": "Autorizada"
+    },
+    {
+        "SStatusId": 4,
+        "SNombre": "Realizada"
+    },
+    {
+        "SStatusId": 5,
+        "SNombre": "No Realizada"
+    }
+]

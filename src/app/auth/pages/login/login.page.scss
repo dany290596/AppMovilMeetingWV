@@ -1,0 +1,73 @@
+#idTituloDeBienvenida {
+    color: #555555;
+    font-family: freesansbold;
+    text-align: left;
+    font-size: 25px;
+}
+
+@font-face {
+    font-family: freesansbold;
+    src: url(../../../../assets/fuentes/freesans/FreeSansBold.ttf);
+}
+
+.iconAjustesCss {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+#idSubtitulo {
+    color: #555555;
+    font-family: freesans;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#idO {
+    color: rgb(0, 0, 0);
+}
+
+#idBotonRegistra {
+    color: #222428;
+}
+
+.mat-form-full-width {
+    width: 100%;
+}
+
+#idButtonCss {
+    background-color: #ffffff;
+    color: black;
+}
+
+.imgLogoWVCss {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 60%;
+}
+
+#idBodyCss {
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.example-margin {
+    margin: 0 11px;
+}
+
+#idCheckboxCss {
+    font-size: 15px;
+    color: #555555;
+    font-family: freesans;
+}
+
+@font-face {
+    font-family: freesans;
+    src: url(../../../../assets/fuentes/freesans/FreeSans.ttf);
+}
+
+.idButtonSignCss {
+    color: #ffffff;
+}

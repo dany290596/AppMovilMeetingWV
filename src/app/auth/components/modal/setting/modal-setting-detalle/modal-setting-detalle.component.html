@@ -1,0 +1,16 @@
+<ion-content class="ion-padding">
+  <ion-item lines="none">
+    <ion-icon color="medium" name="today-outline" size="large"></ion-icon>
+    <ion-note slot="end">{{fecha}}</ion-note>
+  </ion-item>
+
+  <ion-item [button]="true" detail="false">
+    <div class="unread-indicator-wrapper" slot="start">
+      <div class="unread-indicator"></div>
+    </div>
+    <ion-label>
+      <strong class="ion-text-wrap">URL de conexión</strong>
+      <ion-text class="ion-text-wrap">{{api}}</ion-text><br />
+    </ion-label>
+  </ion-item>
+</ion-content>

@@ -1,0 +1,125 @@
+ion-app {
+    ion-split-pane {
+        ion-menu {
+            --background: #242A33;
+        }
+    }
+}
+
+#inbox-list {
+    background: #242A33;
+}
+
+ion-menu ion-content {
+    --background: #242A33;
+}
+
+/*
+ * Material Design Menu
+*/
+ion-menu.md ion-list-header {
+    font-size: 22px;
+    font-weight: bold;
+    --background: #242A33;
+    color: #d7d8da;
+}
+
+/*
+ * iOS Menu
+*/
+ion-menu.ios ion-list-header {
+    --background: #242A33;
+    color: var(--ion-color-light);
+}
+
+ion-menu.ios ion-item ion-icon {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/*
+ * Accordion
+*/
+ion-accordion.accordion-expanding ion-item[slot="header"],
+ion-accordion.accordion-expanded ion-item[slot="header"] {
+    --background: #242A33;
+    --color: #d7d8da;
+    font-size: 20px;
+    font-weight: bold;
+
+    ion-icon {
+        color: #242A33;
+    }
+
+    border-bottom: 2px solid #242A33;
+}
+
+ion-accordion.accordion-collapsed ion-item[slot="header"],
+ion-accordion.accordion-collapsing ion-item[slot="header"] {
+    --background: #242A33;
+    --color: #d7d8da;
+    font-size: 20px;
+
+    ion-icon {
+        color: #242A33;
+    }
+
+    border-bottom: #242A33;
+}
+
+ion-accordion.accordion-expanding ion-item[slot="content"],
+ion-accordion.accordion-expanded ion-item[slot="content"] {
+    --background: #242A33;
+    --color: #d7d8da;
+
+    ion-icon {
+        color: #ffff;
+    }
+
+    border-bottom: 2px solid #242A33;
+}
+
+ion-accordion.accordion-collapsed ion-item[slot="content"],
+ion-accordion.accordion-collapsing ion-item[slot="content"] {
+    --background: #242A33;
+    --color: #d7d8da;
+
+    ion-icon {
+        color: #ffff;
+    }
+
+    border-bottom: #242A33;
+}
+
+#idStrongCss {
+    margin-left: 5px;
+}
+
+
+::ng-deep .mat-form-field {
+    border: var(--ion-color-primary);
+
+    color: black;
+}
+
+::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    background-color: var(--ion-color-inputsFondo);
+    border-radius: 5px;
+}
+
+
+ion-row {
+    background: var(--ion-background-color);
+    color: var(--ion-text-color);
+}
+
+
+ion-card {
+    border: 1px solid var(--ion-text-color) !important;
+
+}
+
+.footer {
+    --background: #242A33;
+    --color: #d7d8da;
+}

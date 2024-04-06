@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Citas",
+        "url": "",
+        "icon": "videocam",
+        "children": [
+            {
+                "title": "Listado",
+                "url": "protected/modulo-agenda/pages/cita-inicio",
+                "icon": "",
+                "name": "cita-inicio"
+            },
+            {
+                "title": "Nueva cita",
+                "url": "protected/modulo-agenda/pages/cita-crear",
+                "icon": "",
+                "name": "cita-crear"
+            }
+        ]
+    },
+    {
+        "title": "Visitante",
+        "url": "",
+        "icon": "person",
+        "children": [
+            {
+                "title": "Listado",
+                "url": "protected/modulo-visitante/pages/visitante-inicio",
+                "icon": "",
+                "name": "visitante"
+            }
+        ]
+    },
+    {
+        "title": "Calendario",
+        "url": "",
+        "icon": "calendar",
+        "children": [
+            {
+                "title": "Calendario",
+                "url": "protected/modulo-agenda/pages/cita-calendario",
+                "icon": "",
+                "name": "cita-calendario"
+            }
+        ]
+    }
+]

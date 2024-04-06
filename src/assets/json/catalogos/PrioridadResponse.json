@@ -1,0 +1,14 @@
+[
+    {
+        "PPrioridadId": "1",
+        "PNombre": "Normal"
+    },
+    {
+        "PPrioridadId": "2",
+        "PNombre": "Alta"
+    },
+    {
+        "PPrioridadId": "3",
+        "PNombre": "Urgente"
+    }
+]

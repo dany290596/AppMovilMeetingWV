@@ -1,0 +1,10 @@
+[
+    {
+        "EEstadoId": 1,
+        "ENombre": "Activo"
+    },
+    {
+        "EEstadoId": 2,
+        "ENombre": "Inactivo"
+    }
+]

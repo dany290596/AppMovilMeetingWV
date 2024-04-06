@@ -1,0 +1,60 @@
+<ion-content>
+  <ion-row>
+    <ion-col>
+      <ion-row>
+        <ion-col>
+          <ion-row>
+            <ion-col>
+              <br>
+
+              <img class="imgLogoWVCss" src="./assets/logotipos/imagenwv.png" alt="logo-texto" />
+
+              <br>
+
+              <div class="mb-0 mr-1 font-weight-bold font-14">
+                <span style="float:right">
+                  <button mat-mini-fab id="idButtonCss" (click)="showLogin()"
+                    aria-label="Example icon button with a filter list icon">
+                    <img class="iconActualizarCss"
+                      src="../../../assets/iconos/acciones/actualizar/icons8-cita-recurrente-100.png" alt="">
+                  </button>
+                </span>
+                <div class="">
+                  <p id="idTituloDeBienvenida">Configuración</p>
+                </div>
+              </div>
+
+              <div class="">
+                <p id="idSubtitulo">Aplicación para gestionar tu agenda de visitas - WebVisitsMeeting.
+                <p>
+              </div>
+
+              <form action="" [formGroup]="configuracionFG">
+                <div style="font-size: 12px">
+                  <mat-form-field class="mat-form-full-width" appearance="outline">
+                    <mat-label>Ingrese la conexión</mat-label>
+                    <input matInput placeholder="https://www.example.com/" type="txtIdUrlApi" required id="txtIdUrlApi"
+                      name="txtIdUrlApi" formControlName="txtIdUrlApi">
+                    <mat-icon matSuffix></mat-icon>
+                    <!-- <mat-error
+                      *ngIf="configuracionFG.get('txtIdUrlApi').touched && configuracionFG.get('txtIdUrlApi').errors?.required">
+                      {{txtIdUrlApiMessage}}
+                    </mat-error> -->
+                  </mat-form-field>
+                </div>
+              </form>
+
+              <ion-button expand="block" color="primary" (click)="guardarUrlApi()">
+                Guardar conexión</ion-button>
+              <ion-button expand="block" color="primary" (click)="verUrlApi()">Ver conexión</ion-button>
+              <!--
+              <ion-button expand="block" color="primary" (click)="verUrlApi()">Ver conexión</ion-button>
+              <ion-button expand="block" color="primary" (click)="probarUrlApi()">Probar conexión</ion-button>
+              -->
+            </ion-col>
+          </ion-row>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+  </ion-row>
+</ion-content>

@@ -1,0 +1,46 @@
+#idTituloDeBienvenida {
+    color: #555555;
+    font-family: freesansbold;
+    text-align: left;
+    font-size: 25px;
+}
+
+.imgLogoWVCss {
+    display: block;
+    margin-left: auto;
+    margin-right: 0px;
+    width: 60%;
+}
+
+.mat-form-full-width {
+    width: 100%;
+}
+
+@font-face {
+    font-family: freesansbold;
+    src: url(../../../../assets/fuentes/freesans/FreeSansBold.ttf);
+}
+
+#idSubtitulo {
+    color: #555555;
+    font-family: freesans;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+@font-face {
+    font-family: freesans;
+    src: url(../../../../assets/fuentes/freesans/FreeSans.ttf);
+}
+
+#idButtonCss {
+    background-color: #ffffff;
+    color: black;
+}
+
+.iconActualizarCss {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}

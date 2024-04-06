@@ -1,0 +1,119 @@
+<ion-content>
+    <ion-row>
+        <ion-col>
+            <ion-row>
+                <ion-col>
+                    <ion-row>
+                        <ion-col>
+                            <br>
+
+                            <img class="imgLogoWVCss" src="./assets/logotipos/imagenwv.png" alt="logo-texto" />
+
+                            <br>
+
+                            <div class="mb-0 mr-1 font-weight-bold font-14">
+                                <span style="float:right">
+                                    <button mat-mini-fab id="idButtonCss" (click)="urlConfiguracion()"
+                                        aria-label="Example icon button with a filter list icon">
+                                        <img class="iconAjustesCss"
+                                            src="../../../../assets/iconos/acciones/configurar/icons8-ajustes-100 (1).png"
+                                            alt="">
+                                    </button>
+                                </span>
+                                <div class="">
+                                    <p id="idTituloDeBienvenida">Iniciar Sesión</p>
+                                </div>
+                            </div>
+
+                            <div class="">
+                                <p id="idSubtitulo">Aplicación para gestionar tu agenda de
+                                    visitas - WebVisitsMeeting.
+                                <p>
+                            </div>
+
+                            <form action="" [formGroup]="loginFG">
+
+                                <div style="font-size: 13px">
+                                    <mat-form-field class="mat-form-full-width" appearance="outline">
+                                        <mat-label>Ingrese su email</mat-label>
+                                        <input matInput placeholder="inmuebles@example.com" required
+                                            formControlName="usuario" class="colors-input">
+                                        <mat-icon matSuffix></mat-icon>
+                                        <!-- <mat-error *ngIf="loginFG.get('usuario').touched && loginFG.get('usuario').errors?.required">
+                        {{txtIdUsuarioMessage}}
+                      </mat-error> -->
+                                    </mat-form-field>
+                                </div>
+
+                                <div style="font-size: 13px">
+                                    <mat-form-field class="mat-form-full-width" appearance="outline">
+                                        <mat-label>Ingrese su contraseña</mat-label>
+                                        <input matInput [type]="hide ? 'password' : 'text'" placeholder="contraseña"
+                                            type="txtIdAccessContrasena" required formControlName="contrasena">
+                                        <button mat-icon-button matSuffix (click)="hide= !hide"
+                                            [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                                        </button>
+                                        <!-- <mat-error *ngIf="loginFG.get('contrasena').touched && loginFG.get('contrasena').errors?.required">
+                        {{txtIdContrasenaMessage}}
+                      </mat-error> -->
+                                    </mat-form-field>
+                                </div>
+
+                                <div class="mb-0 mr-1 font-weight-bold font-14">
+                                    <span style="float:right">
+                                        <div mat-dialog-actions>
+                                            <a id="idCheckboxCss" mat-button href="https://www.google.com/"
+                                                target="_blank">Olvidé
+                                                mi
+                                                contraseña</a>
+                                        </div>
+                                    </span>
+
+                                    <section>
+                                        <mat-checkbox id="idCheckboxCss" class="example-margin" style="margin-top: 5px"
+                                            color="primary" required>
+                                            Recuérdame
+                                        </mat-checkbox>
+                                    </section>
+
+                                </div>
+
+                                <hr style="margin-bottom: -6px;">
+
+                                <ion-button expand="block" class="idButtonSignCss" color="primary"
+                                    (click)="accederConCuenta()">
+                                    Iniciar Sesión
+                                </ion-button>
+
+                                <!--
+                  <ion-button expand="block" color="tertiary" (click)="cleanLoginFG()">
+                    Cancelar
+                  </ion-button>
+                  -->
+                            </form>
+
+                            <p id="idSubtitulo" style="text-align: center; margin-top:
+                      16px;">—— O ingresa con ——</p>
+
+                            <!--
+                <ion-button *ngIf="this.tipoPlataforma === 'ios';" expand="block" class="idButtonSignCss" color="dark"
+                  (click)="accederConAppleId()">
+                  <ion-icon name="logo-apple" slot="start"></ion-icon>Iniciar Sesión con Apple
+                </ion-button>
+                <ion-button expand="block" class="idButtonSignCss" color="tertiary" (click)="accederConFacebook()">
+                  <ion-icon name="logo-facebook" slot="start"></ion-icon>Iniciar con Facebook
+                </ion-button>
+                <ion-button expand="block" class="idButtonSignCss" color="secondary" (click)="accederConTwitter()">
+                  <ion-icon name="logo-twitter" slot="start"></ion-icon>Iniciar con Twitter
+                </ion-button>
+                <ion-button expand="block" class="idButtonSignCss" color="danger" (click)="accederConGmail()">
+                  <ion-icon name="logo-google" slot="start"></ion-icon>Iniciar con Google
+                </ion-button>
+                -->
+                        </ion-col>
+                    </ion-row>
+                </ion-col>
+            </ion-row>
+        </ion-col>
+    </ion-row>
+</ion-content>
